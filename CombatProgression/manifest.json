@@ -1,0 +1,15 @@
+{
+  "Name": "Combat Progression",
+  "Author": "Gin",
+  "Version": "1.0.0",
+  "Description": "Adds combat-based character progression.",
+  "UniqueID": "YolBukik.CombatProgression",
+  "EntryDll": "CombatProgression.dll",
+  "MinimumApiVersion": "4.5.2",
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": true
+    }
+  ]
+}

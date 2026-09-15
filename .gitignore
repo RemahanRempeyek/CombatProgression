@@ -1,0 +1,33 @@
+# Build output
+bin/
+obj/
+
+# Stardew Valley / SMAPI reference DLLs
+**/lib/*.dll
+
+# Compiled mod package
+package/**/*.dll
+
+# Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Packaged mod output
+package/

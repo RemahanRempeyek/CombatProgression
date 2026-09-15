@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>Latest</LangVersion>
+    <AssemblyName>CombatProgression</AssemblyName>
+    <RootNamespace>CombatProgression</RootNamespace>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+<ItemGroup>
+    <Reference Include="StardewModdingAPI">
+        <HintPath>lib/StardewModdingAPI.dll</HintPath>
+        <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Stardew Valley">
+        <HintPath>lib/Stardew Valley.dll</HintPath>
+        <Private>false</Private>
+    </Reference>
+
+    <Reference Include="GenericModConfigMenu">
+  <HintPath>/storage/emulated/0/StardewValley/desktop/Mods/GenericModConfigMenu/GenericModConfigMenu.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+
+     <Reference Include="SMAPI.Toolkit.CoreInterfaces">
+  <HintPath>/storage/emulated/0/StardewValley/smapi-internal/SMAPI.Toolkit.CoreInterfaces.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+
+   <Reference Include="StardewValley.GameData">
+  <HintPath>/storage/emulated/0/StardewValley/desktop/GameFiles/StardewValley.GameData.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+
+</ItemGroup>
+
+</Project>
+
