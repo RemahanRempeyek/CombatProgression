@@ -19,6 +19,22 @@ A Stardew Valley 1.6.15 SMAPI mod that adds configurable Combat-based Max Health
 
 ## Configuration
 
+CombatProgression adds configurable Max Health and Defense bonuses based on the player's Combat Level.
+
+### Max Health Calculation
+
+The final Max Health is calculated as:
+
+**True Base HP + Vanilla Combat Health Bonus + CombatProgression Bonus**
+
+Vanilla Stardew Valley provides:
+
+- **+5 Max HP per Combat Level**
+- **Fighter:** +15 Max HP
+- **Defender:** +25 Max HP
+
+CombatProgression preserves these vanilla bonuses and adds its own configurable bonus on top.
+
 By default, CombatProgression uses the following cumulative bonuses:
 
 | Combat Level | Max Health Bonus | Defense Bonus |
@@ -34,9 +50,15 @@ By default, CombatProgression uses the following cumulative bonuses:
 | 9 | +380 | +9 |
 | 10 | +500 | +10 |
 
-These values are **cumulative bonuses** for the current Combat Level. They are calculated from the player's True Base HP and do not stack the previous level's bonus again.
+For example, with a True Base HP of 100 and no Combat profession bonuses:
 
-All values can be customized through Generic Mod Config Menu.
+**Combat Level 5**
+
+100 Base HP + 25 Vanilla Combat HP + 100 CombatProgression HP = **225 Max HP**
+
+These CombatProgression values are **cumulative bonuses** for the current Combat Level. They are calculated from the player's True Base HP and do not stack the previous level's bonus again.
+
+All CombatProgression values can be customized through Generic Mod Config Menu.
 
 ## Development
 
