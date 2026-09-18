@@ -1,0 +1,9 @@
+{
+  "config.max_health_section": "Bonus Max HP",
+  "config.max_health_description": "Bonus Max HP kumulatif yang diberikan CombatProgression pada setiap Level Combat. Perhitungan selalu dimulai dari True Base HP pemain. Bonus dari level sebelumnya tidak ditambahkan lagi.",
+  "config.defense_section": "Bonus Defense",
+  "config.defense_description": "Bonus Defense kumulatif yang diberikan CombatProgression pada setiap Level Combat. Nilai berlaku untuk Level Combat saat ini.",
+  "config.combat_level": "Level Combat {{level}}",
+  "config.max_health_tooltip": "Bonus Max HP kumulatif dari CombatProgression pada Level Combat {{level}}.",
+  "config.defense_tooltip": "Bonus Defense kumulatif dari CombatProgression pada Level Combat {{level}}."
+}

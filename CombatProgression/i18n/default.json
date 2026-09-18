@@ -1,0 +1,9 @@
+{
+  "config.max_health_section": "Max Health Bonus",
+  "config.max_health_description": "Cumulative Max HP bonus provided by CombatProgression at each Combat Level. The calculation always starts from the player's True Base HP. Bonuses from previous levels are not added again.",
+  "config.defense_section": "Defense Bonus",
+  "config.defense_description": "Cumulative Defense bonus provided by CombatProgression at each Combat Level. The value applies to the current Combat Level.",
+  "config.combat_level": "Combat Level {{level}}",
+  "config.max_health_tooltip": "Cumulative Max HP bonus from CombatProgression at Combat Level {{level}}.",
+  "config.defense_tooltip": "Cumulative Defense bonus from CombatProgression at Combat Level {{level}}."
+}
